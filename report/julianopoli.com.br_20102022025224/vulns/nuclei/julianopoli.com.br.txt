@@ -1,0 +1,1 @@
+[2022-10-20 02:52:53] [django-admin-panel] [http] [info] https://julianopoli.com.br/admin/login/?next=/admin/
