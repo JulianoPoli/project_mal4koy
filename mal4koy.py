@@ -1,10 +1,9 @@
-import httpx
 import sys
 import os
 from datetime import datetime
 import csv
 
-auto_version = "v0.1.0"
+auto_version = "v0.1.1"
 
 def run_recon(target):
     time = datetime.now()
@@ -53,7 +52,7 @@ def run_recon(target):
 def help_menu():
     print(f"\nMal4koy {auto_version} - By JulianoPoli")
     print(f"\nBASIC COMMANDS")
-    print(f"mal4koy -t target.com")
+    print(f"$ python3 mal4koy.py -t target.com")
     print(f"\nPARAMS")
     print(f"-t, --target        Set target URL in format target.com")
     print(f"-h, --help          Help options")

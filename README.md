@@ -4,10 +4,11 @@ Automation to recon and scan of web applications.
 
 ### Install
     $ ./install.sh
+    If use kali Linux bypass this step
 
 ### Commands
     Basic syntax
-    $ mal4koy -t target.com
+    $ sudo python3 mal4koy.py -t target.com
 
     PARAMS
     -t, --target        Set target URL in format target.com
