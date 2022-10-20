@@ -1,0 +1,10 @@
+[2022-10-20 12:54:53] [dns-waf-detect:cloudflare] [dns] [info] https://julianopoli.com.br
+[2022-10-20 12:55:35] [waf-detect:cloudflare] [http] [info] https://julianopoli.com.br/
+[2022-10-20 12:55:35] [waf-detect:apachegeneric] [http] [info] https://julianopoli.com.br/
+[2022-10-20 12:55:52] [tls-version] [ssl] [info] https://julianopoli.com.br [TLS13]
+[2022-10-20 12:55:54] [nameserver-fingerprint] [dns] [info] https://julianopoli.com.br [elias.ns.cloudflare.com.,itzel.ns.cloudflare.com.]
+[2022-10-20 12:55:56] [txt-fingerprint] [dns] [info] https://julianopoli.com.br ["v=spf1 include:_spf.mx.cloudflare.net ~all"]
+[2022-10-20 12:56:06] [mx-fingerprint] [dns] [info] https://julianopoli.com.br [22 amir.mx.cloudflare.net.,78 linda.mx.cloudflare.net.,7 isaac.mx.cloudflare.net.]
+[2022-10-20 12:56:07] [deprecated-tls] [ssl] [info] https://julianopoli.com.br [TLS10]
+[2022-10-20 12:56:07] [deprecated-tls] [ssl] [info] https://julianopoli.com.br [TLS11]
+[2022-10-20 12:56:43] [django-admin-panel] [http] [info] https://julianopoli.com.br/admin/login/?next=/admin/

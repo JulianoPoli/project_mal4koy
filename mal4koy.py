@@ -47,7 +47,7 @@ def run_recon(target):
     active_domains_arqv = open(f"report/{dirname}/subdomains/active_domains.txt")
     lines = active_domains_arqv.readlines()
     for line in lines:
-        os.system(f'sudo nuclei -u https://{line} -o report/{dirname}/vulns/nuclei/{line}.txt')
+        os.system(f'nuclei -u https://{line.strip()} -o report/{dirname}/vulns/nuclei/{line.strip()}.txt')
 
 
 def help_menu():
